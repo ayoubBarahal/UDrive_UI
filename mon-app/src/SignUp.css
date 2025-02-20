@@ -1,0 +1,115 @@
+.background-img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  body {
+    background-color: rgb(21, 21, 21);
+    margin: 0;
+    font-family: 'Tilt Neon', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-container {
+    background-size: cover;
+    text-align: center;
+    width: 400px;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px #ff5733;
+    color: #fff;
+    border-color: #ff5733;
+  }
+  
+  .login-container h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+  }
+  
+  .input-field {
+    width: 92%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    outline: none;
+  }
+  
+  .input-field::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .checkbox-label {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .signin-btn {
+    width: 100%;
+    padding: 0.75rem;
+    background: #ff5733;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .signin-btn:hover {
+    background: #ff5733;
+  }
+  
+  .extras {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .forgot-password {
+    font-size: 0.9rem;
+    color: #ff5733;
+    text-decoration: none;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  .or-text {
+    font-size: 0.9rem;
+    margin: 1.5rem 0;
+  }
+
+  .success-alert {
+    background-color: #4CAF50; /* Vert */
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    transition: opacity 0.5s ease;
+  }
+  
+  
